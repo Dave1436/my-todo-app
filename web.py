@@ -10,6 +10,7 @@ def add_todo():
     functions.write_todos(todos)
     st.session_state["new_todo"] = ""
 
+
 st.title("My Todo App")
 st.subheader("What's today's focus?")
 st.write("")
